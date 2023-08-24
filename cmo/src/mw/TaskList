@@ -1,0 +1,4 @@
+
+o Figure out why list.sort is not supported on Sandia's 980 LAN under Solaris
+	This is not permitted unless MW_SORTED_WORKERS is defined
+

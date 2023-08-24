@@ -1,0 +1,18 @@
+#!/bin/csh
+##
+## Simply demo for sem_driver
+##
+
+\rm job.*in job.*sem job.*out
+
+@ njobs = 10
+
+@ i = 0
+while ($i < $njobs)
+  echo "Job $i" >! job.$i.sem
+  @ i = $i + 1
+end
+
+mpirun -np 2 sem_driver .
+
+ls job*

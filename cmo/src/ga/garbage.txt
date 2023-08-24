@@ -1,0 +1,149 @@
+
+   if(ch.vec[0]==-1)
+     {/* we need to try to complete the leftmos alignament*/
+       a=lower[0];
+       for ( k=1;k<nvars();k++)
+	 {
+	   if (ch.vec[k]>-1)
+	     {
+	       b=ch.vec[k];
+	       break;
+	     }
+	 }
+       urand.low(1);
+       urand.high(b-a-1);
+       ch.vec[0]= a+urand();
+
+     }
+   if(ch.vec[nvars()-1]==-1) 
+     {/* we need to try to complete the rightmos alignament*/
+       b=upper[0];
+       for ( k=nvars()-2;k>=0;k--)
+	 {
+	   if (ch.vec[k]>-1)
+	     {
+	       a=ch.vec[k];
+	       break;
+	     }
+	 }
+       urand.low(1);
+       urand.high(b-a-1);
+       ch.vec[nvars()-1]= a+urand();
+
+     }
+
+
+
+
+
+################
+
+
+
+
+
+
+
+
+
+ /* we check now whether we cross any alignament that was in place before the move */
+ if(dir==0)
+   {
+     for(int i=0;i<start;i++)
+       {
+	 if (pt.vec[i]>pt.vec[start])
+	   {/* we delete the alignament 'cos it was crossed */
+	     pt.vec[i]=-1;
+	   }
+       }
+   }
+ else
+   {
+     for(i=end+1;i<nvars();i++)
+       {
+	 if (pt.vec[i]<pt.vec[end])
+	   {/* we delete the alignament 'cos it was crossed */
+	     pt.vec[i]=-1;
+	   }
+       }
+   }
+
+ /* we need to try to complete whatever free residue we find in child. Supose i is free in child
+      then we see to whom i-k and i+k are aligned for the smalles k. Supose i-k is aligned to a and i+k to b then
+      i can be aligned to anything between a and b. We need first of course to figure out k */
+   for (i=1;i<(nvars()-1);i++)
+     {
+      if(pt.vec[i]==-1)
+	{
+	  /* we initialize a and b in such a way that it spans the whole range of the longer protein*/
+	  a=lower[0];/* all the nvars() got the same bounds so we just peak the 0th one */
+	  b=upper[0]; 
+          for( k=i-1;k>=0;k--)
+	    {
+	      if (pt.vec[k]>-1)
+		{
+		  a=pt.vec[k];
+		  break;		/*get out of the for loop*/
+		}
+	    }
+          for( k=i+1;k<nvars();k++)
+	    {
+	      if (pt.vec[k]>-1)
+		{
+		  b=pt.vec[k];
+		  break;		/*get out of the for loop*/
+		}
+	    }
+          /* at this point we already know how much we can span in the big protein */
+          if((b-a)>1)
+	  {/* there is room for completion */
+           urand.low(1);
+	   urand.high(b-a-1);
+           pt.vec[i]= a+urand();
+	  }
+
+	}
+     }
+
+
+
+   /* we need to take special precautions with the ends of the intervals: vec[0] and vec[nvars()-1]*/
+   if(pt.vec[0]==-1)
+     {/* we need to try to complete the leftmost alignament*/
+       a=upper[0];
+       for ( k=1;k<nvars();k++)
+	 {
+	   if (pt.vec[k]>-1)
+	     {
+	       a=pt.vec[k];
+	       break;/*get out of the for loop*/
+	     }
+	 }
+       urand.low(1);
+       urand.high(a-1);
+       pt.vec[0]= urand();
+
+     }
+   if(pt.vec[nvars()-1]==-1)
+     {/* we need to try to complete the rightmos alignament*/
+       b=lower[0];
+       for (k=nvars()-2;k>=0;k--)
+	 {
+	   if (pt.vec[k]>-1)
+	     {
+	       b=pt.vec[k];
+	       break;/*get out of the for loop*/
+	     }
+	 }
+       urand.low(1);
+       urand.high(b+1);
+       pt.vec[nvars()-1]= urand();
+
+     }
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+#!/bin/csh
+##
+## Syntax:
+##   sem_setup
+##
+## Example script that can is used to perform initial setup of SEM workers
+##
+
+echo "Starting  sem_setup :  " `date`
+
+set tmp = `ls *.in /dev/null`
+foreach file ($tmp)
+  if ("$file" != "/dev/null") then
+     \rm $tmp
+  endif
+end
+
+echo "Finishing sem_setup :  " `date`

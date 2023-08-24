@@ -1,0 +1,50 @@
+#!/bin/python
+
+import sys
+import string
+import os
+import cmo
+
+print sys.argv
+size = len(sys.argv)
+
+if size != 4:
+   print "cmo_worker is not being passed 3 arguments!"
+   sys.exit(1)
+
+ndx_id=1
+ndx_ifile=2
+ndx_ofile=3
+
+print "Opening ", sys.argv[ndx_ofile]
+ofile = open(sys.argv[ndx_ofile],'w')
+
+ofile.write("#\n")
+ofile.write("# CMO Output File\n")
+ofile.write("#\n")
+ofile.write("# " + string.join(sys.argv," ")+"\n")
+ofile.write("#\n")
+ofile.flush()
+ofile.close()
+
+print string.join(sys.argv," ")+"\n"
+
+ifile = open(sys.argv[ndx_ifile],'r')
+tokens = string.split(ifile.readline())
+tokens = string.split(ifile.readline())
+cmd = tokens[0]
+
+print cmd
+
+
+if cmd == "LP":
+   os.system("(serialLP " + sys.argv[ndx_ifile] + " >> " + sys.argv[ndx_ofile] + " ) > /dev/null 2>&1")
+
+elif cmd == "GA":
+   os.system("(PMAprot_ds " + sys.argv[ndx_ifile] + " >> " + sys.argv[ndx_ofile] + ") > /dev/null  2>&1")
+
+else:
+   ofile = open(sys.argv[ndx_ofile],'a')
+   ofile.write("Unknown command " + cmd + "\n")
+   ofile.flush()
+   ofile.close()

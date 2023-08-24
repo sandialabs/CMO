@@ -1,0 +1,90 @@
+<pre>
+------------------------------------------------------------------------------
+CMO
+
+CMO performs protein-structure comparison using a contact-map-overlap
+metric. CMO allows users to perform large-scale comparisons using parallel
+resources to get both lower and upper-bounds on the CMO metric.
+
+------------------------------------------------------------------------------
+William E. Hart
+Sandia National Laboratories
+wehart@sandia.gov 
+
+Natalio Krasnogor
+University of Nottingham
+Natalio.Krasnogor@nottingham.ac.uk
+
+------------------------------------------------------------------------------
+License.
+
+CMO is distributed under the GNU Lesser General Public License.  It is
+free software; you can redistribute it and/or modify it under the terms of
+the GNU Lesser General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any
+later version.  A copy of this license is included in the LICENSE file,
+and is also available online from http://www.gnu.org/copyleft/lesser.html.
+Also refer to the COPYRIGHT file for important U.S. Government legal
+notices.
+
+------------------------------------------------------------------------------
+Overview.
+
+Protein-structure comparison is typically performed using a heuristic
+comparison metric that measures the similarity between structural
+components of proteins.  The contact-map-overlap metric compares the
+overlap between the contact-map for each protein.  The overlap is measured
+by considering all possible alignments of the amino acids of the two
+proteins. Solving this problem exactly is NP-hard, but upper bounds on
+the overlap can be computed using linear programming techniques, and
+lower bounds can be heuristically computed with meta-heuristics like
+evolutionary algorithms.
+
+CMO provides a facility for setting up and solving large-scale protein
+structure comparisons using distributed computing resources. The basic
+CMO code is quite simple, but it leverages and integrates a variety of
+optimization and parallel algorithm libraries.
+
+------------------------------------------------------------------------------
+Installation.
+
+No configuration or makefile facilities are provided with CMO.
+
+------------------------------------------------------------------------------
+Dependencies
+
+This code was compiled using makefiles from the PICO optimization
+library. However, it should be easy to compile this on many different
+platforms.
+
+CMO directly depends upon the following libraries:
+
+  PICO   - linear programming interface
+  SGOPT  - evolutionary algorithms
+  MW-SNL - MW master-worker framework
+
+Additionally, CMO indirectly depends on the following software libraries:
+
+  UTILIB          - C++ utility library (for PICO and SGOPT)
+  CPLEX or SOPLEX - linear programming
+
+------------------------------------------------------------------------------
+Platforms.
+
+This package is quite generic and thus it should compile on a wide range
+of platforms.  Specifically, this code has been compiled on RedHat Linux,
+and SOLARIS CC 5.2+ and g++ 3.x.
+
+------------------------------------------------------------------------------
+Versions.
+
+This release is version 1.0.
+
+------------------------------------------------------------------------------
+Documentation.
+
+No documentation is provided.  
+
+------------------------------------------------------------------------------
+
+</pre>

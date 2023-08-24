@@ -1,0 +1,23 @@
+Parallel programming model
+. Copy list of files to all nodes (not using MPI?)
+	sem_setup
+. Fork/exec VMWare on all nodes
+	sem_setup
+. Launch MW <directory> <outfile>
+  - Run script to rename all *.in.mw files to *.in
+	sem_get_tasks
+  - Run script to list all *.in files into file sem_server_inputs
+	sem_get_tasks
+  - Read sem_server_inputs
+  - Create a queue of jobs, renaming *.in files to *.in.mw
+  - Work on queue until gone
+  - Iterate
+. Kill VMWare child
+	sem_cleanup
+
+
+Need to make this more robust to missing files (command files)
+Need to create a worker setup and worker cleanup
+	Launch worker_setup when workers are setup
+	Launch worker_cleanup when workers are cleaned up
+Graceful degredation if file cannot be executed

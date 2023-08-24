@@ -1,0 +1,61 @@
+XCOMM
+XCOMM    Ygl: Run 2d-GL programs with standard X11 routines.
+XCOMM    (C) Fred Hucht 1993-96
+XCOMM    EMail: fred@thp.Uni-Duisburg.DE
+XCOMM
+
+/* Uncomment next line to use MultiBuffer extension */
+MBUFLIB  	= -lXext
+
+/* Uncomment next line to use experimental colormap handling */
+# THEXMULIB  	= -lXmu
+
+
+/* This tells the compiler to append '_' to function names */
+#ifdef RsArchitecture
+EXTNAME		= -qextname 
+#endif
+#ifdef HPArchitecture
+EXTNAME		= +ppu
+#endif
+
+INCLUDES 	= -I..
+
+LOCAL_LDFLAGS	= -L..
+
+REQUIREDLIBS 	= -lYgl $(MBUFLIB) $(THEXMULIB) -lX11
+
+SRCS		= lines.c rgbtest.c coltest.c smile.c popup.c
+
+AllTarget(lines coltest rgbtest smile popup)
+
+NormalProgramTarget(lines.gl,  lines.o,  NullParameter,NullParameter,../gl2ppm.o -lgl)
+NormalProgramTarget(rgbtest.gl,rgbtest.o,NullParameter,NullParameter,../gl2ppm.o -lgl)
+NormalProgramTarget(coltest.gl,coltest.o,NullParameter,NullParameter,-lgl -lm)
+NormalProgramTarget(smile.gl,  smile.o,  NullParameter,NullParameter,-lgl)
+NormalProgramTarget(popup.gl,  popup.o,  NullParameter,NullParameter,-lgl)
+
+NormalProgramTarget(lines,     lines.o,  NullParameter,NullParameter,$(REQUIREDLIBS))
+NormalProgramTarget(rgbtest,   rgbtest.o,NullParameter,NullParameter,$(REQUIREDLIBS))
+NormalProgramTarget(coltest,   coltest.o,NullParameter,NullParameter,$(REQUIREDLIBS) -lm)
+NormalProgramTarget(smile,     smile.o,  NullParameter,NullParameter,$(REQUIREDLIBS))
+NormalProgramTarget(popup,     popup.o,  NullParameter,NullParameter,$(REQUIREDLIBS))
+
+DependTarget();
+
+gl::	lines.gl coltest.gl rgbtest.gl smile.gl popup.gl
+
+clean::
+	$(RM) *.gif smile_xlf smile_f2c smile_f77 smile_f77.c
+
+smile_f2c:: smile_f77.f
+	f2c smile_f77.f
+	$(CC) $(CFLAGS) -o $@ smile_f77.c -lf2c $(LOCAL_LDFLAGS) $(REQUIREDLIBS)
+
+smile_f77:: smile_f77.f
+	$(FC) $(EXTNAME) $(FFLAGS) -o $@ smile_f77.f       $(LOCAL_LDFLAGS) $(REQUIREDLIBS)
+
+#ifdef RsArchitecture
+smile_xlf:: smile_xlf.f
+	xlf   $(FFLAGS) -o $@ smile_xlf.f       $(LOCAL_LDFLAGS) $(REQUIREDLIBS)
+#endif

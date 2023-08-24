@@ -1,0 +1,4 @@
+1 GAINIT gaparams1.in  ;
+2 GA test1.dat ;
+3 LP test.mps ;
+4 LP test.mps ;

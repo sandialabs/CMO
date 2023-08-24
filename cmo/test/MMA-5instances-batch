@@ -1,0 +1,186 @@
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%LS=multiMeme IT=5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1avy.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1avy-pdb1bct.1.MULTIMEMEIT5.DAT  
+%PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1avy.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1avy-pdb1bct.2.MULTIMEMEIT5.DAT  
+%PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1avy.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1avy-pdb1bct.3.MULTIMEMEIT5.DAT  
+%PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1avy.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1avy-pdb1bct.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1avy.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1avy-pdb1bct.5.MULTIMEMEIT5.DAT  
+
+%-----
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1ilp.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1ilp.1.MULTIMEMEIT5.DAT  
+%PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1ilp.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1ilp.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1ilp.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1ilp.3.MULTIMEMEIT5.DAT  
+%PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1ilp.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1ilp.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1ilp.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1ilp.5.MULTIMEMEIT5.DAT  
+
+
+%-----
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c9o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kdf.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1c9o-pdb1kdf.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c9o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kdf.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1c9o-pdb1kdf.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c9o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kdf.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1c9o-pdb1kdf.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c9o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kdf.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1c9o-pdb1kdf.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c9o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kdf.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1c9o-pdb1kdf.5.MULTIMEMEIT5.DAT  
+
+
+%-----
+
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb3mef.gr  132 8  5 0.7 0.3 0.25  100  200 > pdb2new-pdb3mef.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb3mef.gr  5322 8  5 0.7 0.3 0.25  100  200 > pdb2new-pdb3mef.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb3mef.gr  1987332  8  5 0.7 0.3 0.25  100  200 > pdb2new-pdb3mef.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb3mef.gr  7   8   5 0.7 0.3 0.25  100  200 > pdb2new-pdb3mef.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb3mef.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb2new-pdb3mef.5.MULTIMEMEIT5.DAT  
+
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1pfn.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1svf.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1pfn-pdb1svf.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1pfn.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1svf.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1pfn-pdb1svf.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1pfn.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1svf.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1pfn-pdb1svf.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1pfn.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1svf.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1pfn-pdb1svf.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1pfn.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1svf.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1pfn-pdb1svf.5.MULTIMEMEIT5.DAT  
+
+
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmg.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1nmg-pdb1wdc.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmg.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1nmg-pdb1wdc.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmg.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1nmg-pdb1wdc.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmg.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1nmg-pdb1wdc.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmg.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1nmg-pdb1wdc.5.MULTIMEMEIT5.DAT  
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb2new-pdb1nmf.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb2new-pdb1nmf.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb2new-pdb1nmf.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb2new-pdb1nmf.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb2new-pdb1nmf.5.MULTIMEMEIT5.DAT  
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1hlh-pdb1nmf.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1hlh-pdb1nmf.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1hlh-pdb1nmf.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1hlh-pdb1nmf.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1hlh-pdb1nmf.5.MULTIMEMEIT5.DAT  
+
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hrf.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1hlh-pdb1hrf.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hrf.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1hlh-pdb1hrf.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hrf.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1hlh-pdb1hrf.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hrf.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1hlh-pdb1hrf.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hrf.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1hlh-pdb1hrf.5.MULTIMEMEIT5.DAT  
+
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1df5.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1df5-pdb1f22.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1df5.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1df5-pdb1f22.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1df5.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1df5-pdb1f22.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1df5.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1df5-pdb1f22.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1df5.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1df5-pdb1f22.5.MULTIMEMEIT5.DAT  
+
+
+
+
+
+
+
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7v.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7w.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1c7v-pdb1c7w.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7v.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7w.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1c7v-pdb1c7w.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7v.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7w.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1c7v-pdb1c7w.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7v.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7w.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1c7v-pdb1c7w.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7v.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7w.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1c7v-pdb1c7w.5.MULTIMEMEIT5.DAT  
+
+
+
+
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1f22.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1f22.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1f22.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1f22.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1f22.5.MULTIMEMEIT5.DAT  
+
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1a8o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1a8o-pdb1f22.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1a8o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1a8o-pdb1f22.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1a8o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1a8o-pdb1f22.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1a8o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1a8o-pdb1f22.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1a8o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1a8o-pdb1f22.5.MULTIMEMEIT5.DAT  
+
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1bw5.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  5322 0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1bw5.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1bw5.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  7  8  5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1bw5.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1bct-pdb1bw5.5.MULTIMEMEIT5.DAT  
+
+
+
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1b6w.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  132 0.1 5 0.7 0.3 0.25  100  200 > pdb1b6w-pdb1bw5.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1b6w.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  5322  0.1 5 0.7 0.3 0.25  100  200 > pdb1b6w-pdb1bw5.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1b6w.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  1987332  0.1 5 0.7 0.3 0.25  100  200 > pdb1b6w-pdb1bw5.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1b6w.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  7  0.1 5 0.7 0.3 0.25  100  200 > pdb1b6w-pdb1bw5.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1b6w.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  11  0.1 5 0.7 0.3 0.25  100  200 > pdb1b6w-pdb1bw5.5.MULTIMEMEIT5.DAT  
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1vnb.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bhb.gr  132  0.1 5 0.7 0.3 0.25  100 200> pdb1vnb-pdb1bhb.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1vnb.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bhb.gr  5322  0.1 5 0.7 0.3 0.25  100 200> pdb1vnb-pdb1bhb.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1vnb.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bhb.gr  1987332  0.1 5 0.7 0.3 0.25  100 200> pdb1vnb-pdb1bhb.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1vnb.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bhb.gr  7 8  5 0.7 0.3 0.25  100 200   > pdb1vnb-pdb1bhb.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1vnb.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bhb.gr  11  0.1 5 0.7 0.3 0.25  100 200> pdb1vnb-pdb1bhb.5.MULTIMEMEIT5.DAT  
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2bbi.gr  132  0.1 5 0.7 0.3 0.25  100 200> pdb1f22-pdb2bbi.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2bbi.gr  5322  0.1 5 0.7 0.3 0.25  100 200> pdb1f22-pdb2bbi.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2bbi.gr  1987332  0.1 5 0.7 0.3 0.25  100 200> pdb1f22-pdb2bbi.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2bbi.gr  7  0.1 5 0.7 0.3 0.25  100 200> pdb1f22-pdb2bbi.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2bbi.gr  11  8  5 0.7 0.3 0.25  100 200   > pdb1f22-pdb2bbi.5.MULTIMEMEIT5.DAT  
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kst.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  132  0.1 5 0.7 0.3 0.25  100 200> pdb1kst-pdb2new.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kst.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  5322  0.1 5 0.7 0.3 0.25  100 200> pdb1kst-pdb2new.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kst.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  1987332  0.1 5 0.7 0.3 0.25  100 200> pdb1kst-pdb2new.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kst.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  7  0.1 5 0.7 0.3 0.25  100 200> pdb1kst-pdb2new.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kst.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  11  0.1 5 0.7 0.3 0.25  100 200> pdb1kst-pdb2new.5.MULTIMEMEIT5.DAT  
+
+
+
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1utr.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  132  0.1 5 0.7 0.3 0.25  100 200> pdb1utr-pdb1wdc.1.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1utr.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  5322  0.1 5 0.7 0.3 0.25  100 200> pdb1utr-pdb1wdc.2.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1utr.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  1987332  0.1 5 0.7 0.3 0.25  100 200> pdb1utr-pdb1wdc.3.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1utr.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  7  0.1 5 0.7 0.3 0.25  100 200> pdb1utr-pdb1wdc.4.MULTIMEMEIT5.DAT  
+PMAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1utr.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  11  0.1 5 0.7 0.3 0.25  100 200> pdb1utr-pdb1wdc.5.MULTIMEMEIT5.DAT  
+
+

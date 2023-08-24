@@ -1,0 +1,100 @@
+#!/bin/python
+##
+## Processes commands to be executed by the CMO server in a command-specific
+## manner
+##
+##
+
+import sys
+import string
+import os
+import cmo
+
+def help():
+   print "cmo_exec [-debug] [-np <num>] <job-id> <command> <arguments>..."
+   print ""
+   print "Supported commands are:"
+   print "   GA <cmap_file1> <cmap_file2> <seed> <param_file>"
+   print "   LP <mps_file> [<param_file>]"
+
+
+##
+## MAIN
+##
+#
+# Return debugging info
+#
+if len(sys.argv) == 1:
+   help()
+   sys.exit(0)
+#
+# Globals
+#
+ndx = 1
+debug = False
+np = 1
+cmodir = os.environ["CMO_DRIVER_DIR"]
+if cmodir == "":
+   cmodir == "./"
+if cmodir[len(cmodir)-1] != "/":
+   cmodir = cmodir + "/"
+#
+# Process options
+#
+processing = True
+while processing:
+  if sys.argv[ndx] == "-h" or sys.argv[ndx] == "-help" or sys.argv[ndx] == "--help":
+     help()
+     sys.exit(0)
+  if sys.argv[ndx] == "-debug":
+     debug = True
+     ndx = ndx+1
+  elif sys.argv[ndx] == "-np":
+     np = eval(sys.argv[ndx+1])
+     ndx = ndx+2
+  else:
+     break
+#
+# Setup filename header
+#
+fname = cmodir + sys.argv[ndx]
+ndx = ndx + 1
+ofstr = open(fname+".cmd","w")
+ofstr.write(string.join(sys.argv[ndx:]," ")+"\n")
+ofstr.close()
+
+##
+## Solvers
+##
+#
+# LP Solver
+#
+if sys.argv[ndx] == "LP":
+   if len(sys.argv) == (ndx+2):
+      cmo.package_files([ fname+".cmd",sys.argv[ndx+1] ] , fname+".tmp")
+   else:
+      cmo.package_files([ fname+".cmd",sys.argv[ndx+1],sys.argv[ndx+2] ] , fname+".tmp")
+   os.rename(fname+".tmp",fname+"."+sys.argv[ndx]+".cmo")
+#
+# GA Solver
+#
+elif sys.argv[ndx] == "GA":
+   if len(sys.argv) == (ndx+4):
+      cmo.package_files([ fname+".cmd",sys.argv[ndx+1],sys.argv[ndx+2] ] , fname+".tmp")
+   else:
+      cmo.package_files([ fname+".cmd",sys.argv[ndx+1],sys.argv[ndx+2],sys.argv[ndx+4] ] , fname+".tmp")
+   os.rename(fname+".tmp",fname+"."+sys.argv[ndx]+".cmo")
+
+elif sys.argv[ndx] == "TEST":
+   cmo.package_files([ fname+".cmd" ] , fname+".tmp")
+   os.rename(fname+".tmp",fname+"."+sys.argv[ndx]+".cmo")
+   
+
+else:
+   print "No command \"" + sys.argv[ndx] + "\" is supported"
+   help()
+
+#
+# Cleanup
+#
+os.unlink(fname+".cmd")

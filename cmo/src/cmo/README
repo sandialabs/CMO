@@ -1,0 +1,21 @@
+In this directory you will find:
+
+convert.C : a program that takes a file.gr and produces the ample-friendly files file.gr.E1.dat file.gr.E2.dat
+
+main.C: a sample program that reads a file.gr and produce its contactmap graphic display.
+
+to compile reade the Makefile
+
+
+In order to use the graphics you need to have in your file system YGL installed.
+
+
+
+Nat Krasnogor
+27-07-2001
+
+
+To contact me e-mail to both:
+
+nkrasno@cs.sandia.gov
+nkrasnogor@hotmail.com

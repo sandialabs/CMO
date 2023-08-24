@@ -1,0 +1,24 @@
+In this directory you will find:
+
+
+PGAprot_ds: a GA that implements Recomb paper GA using sgopt and utilib libraries. SGOPT and UTILIB are mainteined by Bill Hart and you should contact him to install them on your file system. PGAprot_ds can not work without them
+
+
+PMAprot_ds: is a MultiMemetic Algorithm for the max CMO that uses as a base the GA described in Recomb paper and 
+selects a number of  local searcher based on the SIM mechanism presented in "Emergence of Profitable Search Strategies Based on a Simple Inheritance mechanism". The local searchers available are one of 7, the first being a reimplemtation of Recomb local search heuristic, the other 4 a parameterized family of operators, and the last 2 new operators defined by me. See PGALocalSearch.cpp for detailed comments.
+
+
+###WARNING #####
+Please note that the name of the program is the same as that of a single meme memetic algorithm in directory CMOAGA, but is actually a different metaheuristic than the one found in that directory.
+
+
+To compile PGAprot_ds do: make gaalign
+To compile PMAprot_ds do: make mealign
+
+Nat Krasnogor
+25-10-2001
+
+To contact me e-mail to both:
+Natalio.Krasnogor@nottingham.ac.uk
+nkrasno@cs.sandia.gov
+nkrasnogor@hotmail.com

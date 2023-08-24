@@ -1,0 +1,192 @@
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1b6w.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  132 >pdb1b6w-pdb1bw5.1.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1b6w.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  5322 >pdb1b6w-pdb1bw5.2.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1b6w.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  1987332 >pdb1b6w-pdb1bw5.3.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1b6w.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  7 >pdb1b6w-pdb1bw5.4.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1b6w.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  11 >pdb1b6w-pdb1bw5.5.DAT
+
+
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1vnb.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bhb.gr  132 > pdb1vnb-pdb1bhb.1.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1vnb.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bhb.gr  5322 > pdb1vnb-pdb1bhb.2.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1vnb.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bhb.gr  1987332 > pdb1vnb-pdb1bhb.3.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1vnb.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bhb.gr  7 > pdb1vnb-pdb1bhb.4.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1vnb.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bhb.gr  11 > pdb1vnb-pdb1bhb.5.DAT
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2bbi.gr  132 > pdb1f22-pdb2bbi.1.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2bbi.gr  5322 > pdb1f22-pdb2bbi.2.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2bbi.gr  1987332 > pdb1f22-pdb2bbi.3.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2bbi.gr  7 > pdb1f22-pdb2bbi.4.DAT
+%PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2bbi.gr  11 > pdb1f22-pdb2bbi.5.DAT
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kst.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  132 > pdb1kst-pdb2new.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kst.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  5322 > pdb1kst-pdb2new.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kst.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  1987332 > pdb1kst-pdb2new.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kst.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  7 > pdb1kst-pdb2new.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kst.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  11 > pdb1kst-pdb2new.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1utr.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  132 > pdb1utr-pdb1wdc.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1utr.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  5322 > pdb1utr-pdb1wdc.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1utr.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  1987332 > pdb1utr-pdb1wdc.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1utr.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  7 > pdb1utr-pdb1wdc.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1utr.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  11 > pdb1utr-pdb1wdc.5.DAT
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  132 >  pdb1bct-pdb1bw5.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  5322 >  pdb1bct-pdb1bw5.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  1987332 >  pdb1bct-pdb1bw5.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  7 >  pdb1bct-pdb1bw5.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bw5.gr  11 >  pdb1bct-pdb1bw5.5.DAT
+
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7v.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7w.gr  132 > pdb1c7v-pdb1c7w.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7v.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7w.gr  5322 > pdb1c7v-pdb1c7w.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7v.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7w.gr  1987332 > pdb1c7v-pdb1c7w.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7v.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7w.gr  7 > pdb1c7v-pdb1c7w.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7v.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c7w.gr  11 > pdb1c7v-pdb1c7w.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hrf.gr  132 > pdb1hlh-pdb1hrf.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hrf.gr  5322 > pdb1hlh-pdb1hrf.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hrf.gr  1987332 > pdb1hlh-pdb1hrf.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hrf.gr  7 > pdb1hlh-pdb1hrf.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hrf.gr  11 > pdb1hlh-pdb1hrf.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  132 > pdb1nmf-pdb2new.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  5322 > pdb1nmf-pdb2new.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  1987332 > pdb1nmf-pdb2new.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  7 > pdb1nmf-pdb2new.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr  11 > pdb1nmf-pdb2new.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb3mef.gr  132 > pdb2new-pdb3mef.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb3mef.gr  5322 > pdb2new-pdb3mef.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb3mef.gr  1987332 > pdb2new-pdb3mef.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb3mef.gr  7 > pdb2new-pdb3mef.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2new.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb3mef.gr  11 > pdb2new-pdb3mef.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1a8o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  132 >  pdb1a8o-pdb1f22.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1a8o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  5322 >  pdb1a8o-pdb1f22.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1a8o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  1987332 >  pdb1a8o-pdb1f22.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1a8o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  7 >  pdb1a8o-pdb1f22.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1a8o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  11 >  pdb1a8o-pdb1f22.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  132 > pdb1bct-pdb1f22.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  5322 > pdb1bct-pdb1f22.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  1987332 > pdb1bct-pdb1f22.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  7 > pdb1bct-pdb1f22.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  11 > pdb1bct-pdb1f22.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c9o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kdf.gr  132 > pdb1c9o-pdb1kdf.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c9o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kdf.gr  5322 > pdb1c9o-pdb1kdf.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c9o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kdf.gr  1987332 > pdb1c9o-pdb1kdf.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c9o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kdf.gr  7 > pdb1c9o-pdb1kdf.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1c9o.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1kdf.gr  11 > pdb1c9o-pdb1kdf.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  132 > pdb1hlh-pdb1nmf.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  5322 > pdb1hlh-pdb1nmf.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  1987332 > pdb1hlh-pdb1nmf.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  7 > pdb1hlh-pdb1nmf.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmf.gr  11 > pdb1hlh-pdb1nmf.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmg.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  132 > pdb1nmg-pdb1wdc.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmg.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  5322 > pdb1nmg-pdb1wdc.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmg.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  1987332 > pdb1nmg-pdb1wdc.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmg.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  7 > pdb1nmg-pdb1wdc.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1nmg.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1wdc.gr  11 > pdb1nmg-pdb1wdc.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1avy.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr  132 >  pdb1avy-pdb1bct.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1avy.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr  5322 >  pdb1avy-pdb1bct.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1avy.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr  1987332 >  pdb1avy-pdb1bct.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1avy.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr  7 >  pdb1avy-pdb1bct.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1avy.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr  11 >  pdb1avy-pdb1bct.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1ilp.gr  132 > pdb1bct-pdb1ilp.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1ilp.gr  5322 > pdb1bct-pdb1ilp.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1ilp.gr  1987332 > pdb1bct-pdb1ilp.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1ilp.gr  7 > pdb1bct-pdb1ilp.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1bct.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1ilp.gr  11 > pdb1bct-pdb1ilp.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1df5.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  132 > pdb1df5-pdb1f22.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1df5.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  5322 > pdb1df5-pdb1f22.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1df5.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  1987332 > pdb1df5-pdb1f22.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1df5.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  7 > pdb1df5-pdb1f22.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1df5.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1f22.gr  11 > pdb1df5-pdb1f22.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2b3c.gr  132 > pdb1hlh-pdb2b3c.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2b3c.gr  5322 > pdb1hlh-pdb2b3c.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2b3c.gr  1987332 > pdb1hlh-pdb2b3c.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2b3c.gr  7 > pdb1hlh-pdb2b3c.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1hlh.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb2b3c.gr  11 > pdb1hlh-pdb2b3c.5.DAT
+
+
+
+
+
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1pfn.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1svf.gr  132 > pdb1pfn-pdb1svf.1.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1pfn.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1svf.gr  5322 > pdb1pfn-pdb1svf.2.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1pfn.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1svf.gr  1987332 > pdb1pfn-pdb1svf.3.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1pfn.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1svf.gr  7 > pdb1pfn-pdb1svf.4.DAT
+PGAprot_ds /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1pfn.gr /home/u/nkrasno/PROJECTS/INSTANCES/PDBs/pdb1svf.gr  11 > pdb1pfn-pdb1svf.5.DAT
+
+
+
+
+

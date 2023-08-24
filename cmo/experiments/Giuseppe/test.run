@@ -1,0 +1,15 @@
+model /home/u/mjcolli/CMO/Models/cmogroups5.mod;
+model /home/u/mjcolli/CMO/Models/cmo5bkp.mod;
+data;
+param num_groups :=
+1 2
+2 2
+;
+param Last_Group_Colored_By :=
+1 2
+2 2
+;
+
+data /Net/pecos/proj/opt/apps/CMO/Data/big1 ;
+data /Net/pecos/proj/opt/apps/CMO/Data/big2;
+solve;

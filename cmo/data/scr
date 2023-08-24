@@ -1,0 +1,16 @@
+model /home/u/mjcolli/CMO/Models/cmogroups5.mod;
+model /home/u/mjcolli/CMO/Models/cmo5bkp.mod;
+data;
+param num_groups :=
+1 3
+2 4
+;
+param Last_Group_Colored_By :=
+1 2
+2 3
+3 4
+;
+
+data ;
+data ;
+solve;

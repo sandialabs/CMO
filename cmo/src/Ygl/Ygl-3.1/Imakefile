@@ -1,0 +1,112 @@
+XCOMM
+XCOMM    Ygl: Run 2d-GL programs with standard X11 routines.
+XCOMM    (C) Fred Hucht 1993-96
+XCOMM    EMail: fred@thp.Uni-Duisburg.DE
+XCOMM
+
+
+XCOMM  Set MultiBuffer to 1 if your system has the include file
+XCOMM  <X11/extensions/multibuf.h> and the library libXext.a
+#define MultiBuffer 1
+
+XCOMM  Set UseGlobalColormap to 1 to use experimental colormap handling.
+XCOMM  You must have the include file <X11/Xmu/StdCmap.h> and libXmu.a
+#define UseGlobalColormaps 0
+
+XCOMM  Set YglPrefix to 1 to prepend "ygl_" to all function names
+#define YglPrefix 0
+
+XCOMM  Set FortranBindings to 1 to include FORTRAN bindings into
+XCOMM  the Ygl library.
+#define FortranBindings 1
+
+XCOMM ***************** End of configuable part ********************
+
+#ifdef RsArchitecture
+#define DoSharedLib 1
+CC 		= 	xlc
+CCOPTIONS	=	
+#endif /* RsArc */
+
+#ifdef HPArchitecture
+CCOPTIONS	=	-Aa -D_HPUX_SOURCE
+#endif
+
+#ifdef MacIIArchitecture
+XCOMM A/UX must have prefix due to naming conflict
+#define YglForcePrefix 1
+CCOPTIONS	=	-D_AUX_SOURCE
+#endif
+
+#if MultiBuffer
+MULTIBUF	=	-DMULTIBUF
+MBUFLIB 	= 	-lXext
+#endif
+
+#if UseGlobalColormaps
+HASXMU		=	-DHASXMU
+THEXMULIB	=	-lXmu
+#endif
+
+#if YglPrefix
+YGL_PREFIX 	= 	-DYGL_PREFIX
+TARGET		= 	Yglp
+#else
+TARGET		= 	Ygl
+#endif
+
+#if YglForcePrefix /* A/UX */
+YGL_PREFIX 	= 	-DYGL_PREFIX
+#endif
+
+DEFINES 	= 	$(MULTIBUF) $(HASXMU) $(YGL_PREFIX)
+
+REQUIREDLIBS	= 	$(MBUFLIB) $(THEXMULIB) -lX11
+
+#if FortranBindings
+SRCS = ygl.c draw.c misc.c font.c queue.c color.c menu.c gl2ppm.c fortran.c
+OBJS = ygl.o draw.o misc.o font.o queue.o color.o menu.o gl2ppm.o fortran.o
+#else /* FortranBindings */
+SRCS = ygl.c draw.c misc.c font.c queue.c color.c menu.c gl2ppm.c
+OBJS = ygl.o draw.o misc.o font.o queue.o color.o menu.o gl2ppm.o
+#endif /* FortranBindings */
+
+INCLUDES = -I.
+
+#if DoSharedLib
+SharedLibraryTarget ($(TARGET),NullParameter,$(OBJS),.,.)
+InstallSharedLibrary($(TARGET),NullParameter,$(USRLIBDIR))
+#else /* DoSharedLib */
+XLIBS = $(REQUIREDLIBS)
+NormalLibraryTarget($(TARGET),$(OBJS))
+InstallLibrary($(TARGET),$(USRLIBDIR))
+#endif /* DoSharedLib */
+
+INSTALLFLAGS = $(INSTINCFLAGS)
+
+InstallMultiple(X11/Ygl.h,$(INCDIR))
+
+#if FortranBindings
+InstallMultiple(X11/Yfgl.h,$(INCDIR))
+#endif
+
+#if YglPrefix || YglForcePrefix
+InstallMultiple(X11/Yglprefix.h,$(INCDIR))
+#endif
+
+DependTarget()
+
+includes::	X11/Yglprefix.h
+
+X11/Yglprefix.h::	X11/Ygl.h mkprefix
+	mkprefix
+
+etags::
+	etags -t $(SRCS) header.h config.h X11/Ygl.h
+
+clean::
+	$(RM) a.out
+	cd X11 ; $(RM) Yglprefix.h *~ ; cd ..
+
+lint::
+	$(LINT) -MA $(ALLDEFINES) $(LINTOPTS) -Nn10000 -Nd10000 $(SRCS)

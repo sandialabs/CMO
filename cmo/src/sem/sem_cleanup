@@ -1,0 +1,10 @@
+#!/bin/csh
+##
+## Syntax:
+##   sem_cleanup
+##
+## Example script that can is used to perform final cleanup of SEM workers
+##
+
+echo "Starting  sem_cleanup :  " `date`
+echo "Finishing sem_cleanup :  " `date`

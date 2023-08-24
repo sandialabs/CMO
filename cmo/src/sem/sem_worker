@@ -1,0 +1,25 @@
+#!/bin/csh
+##
+## Syntax:
+##   sem_worker <cmd> <infile> <outfile>
+##
+## This is a script that can be used by sem_driver to provide a generic 
+## interface to a task script.  The <cmd> argument indicates the type of
+## task, the <infile> argument indicates the input file, and the <outfile>
+## argument indicates where the output of this script will go.
+##
+
+echo "------------------------------------------"
+echo "Started  sem_worker"
+echo "Command: " $1
+echo "Input:   " $2
+echo "Output:  " $3
+echo "Finished sem_worker"
+echo "------------------------------------------"
+
+##
+## Note: to avoid race conditions, write out the file to a temporary file,
+## and then move it to its final name...
+##
+echo "Dummy output for input file: $2" > tmp.$$
+mv tmp.$$ $3

@@ -1,0 +1,14 @@
+#!/bin/csh
+
+#set dir = /proj/opt/users/wehart/src/cc/CMO/exec/workdir
+set dir = ../workdir
+setenv CMO_DRIVER_DIR $dir
+mkdir ${dir}
+
+cmo_exec test1 GA prot1.map prot2.map 999 gaparams.in
+cmo_exec test2 GA prot1.map prot2.map 999
+cmo_exec test3 LP lp.mps lpparams.in
+cmo_exec test4 LP lp.mps
+cmo_exec test5 TEST
+
+

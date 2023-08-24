@@ -1,0 +1,28 @@
+#!/bin/sh
+#
+#    Ygl: Run 2d-GL programs with standard X11 routines.
+#    (C) Fred Hucht 1993-96
+#    EMail: fred@thp.Uni-Duisburg.DE
+#
+
+PREF=ygl_
+
+cd X11
+
+{
+cat << EOF1
+/* File is generated automatically by 'mkprefix' */
+#define YGL_PRE(x) ${PREF}##x
+
+EOF1
+
+grep extern Ygl.h |
+grep -v 'extern[ 	]"C"' |
+sed "s/^\(extern[ 	]*[A-Za-z0-9_\*]*\)[ 	]*\**\([A-Za-z0-9_]*\).*/#define \2 $PREF\2/"
+
+cat << EOF2
+#define sleep   ${PREF}sleep
+#define usleep  ${PREF}usleep
+
+EOF2
+} > Yglprefix.h

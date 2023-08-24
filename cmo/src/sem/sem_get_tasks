@@ -1,0 +1,13 @@
+#!/bin/csh
+##
+## sem_get_tasks
+##
+
+\rm $1
+touch $1
+
+set tmp = `ls *.sem`
+foreach i ($tmp)
+  mv $i ${i:r}.in
+  echo "${i:r}.in" >> $1
+end
